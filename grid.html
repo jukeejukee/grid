@@ -9,8 +9,9 @@
         #grid{
             border: pink 5px solid;
             display: grid;
-            grid-template-columns: 150px 1fr;
+            grid-template-columns: 150px 1fr;   
         }
+        /* fr : 자동으로 나머지 크기를 모두 다 사용하는 요소 */
         div{
             border: 5px solid gray;
         }
@@ -22,6 +23,10 @@
         <div>NAVIGATION</div>
         <div>ARTICLE</div>
     </div>
+    <!-- <div> 태그를 나란히 배치하고 싶다면 부모 태그가 필요해서 <div>으로 한 번 더 묶어줬다. -->
+    <!-- <div> 아무런 의미가 없는 element. block 속성이므로 화면 전체를 차지함 -->
+    <!-- <span> inline element -->
+    <!-- gid의 장점: 컨텐츠 안의 크기에 따라 자동으로 크기가 조절됨 -->
     
     
 </body>
